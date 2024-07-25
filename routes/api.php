@@ -21,5 +21,7 @@ use App\Http\Controllers\ZatcaController;
 
 Route::get('generate-csr', [ZatcaController::class, 'generate_csr']);
 Route::get('signing', [ZatcaController::class, 'signing_invoice']);
+Route::get('signing_invoice_osama', [ZatcaController::class, 'signing_invoice_osama']);
+
 Route::get('generate_qr', [ZatcaController::class, 'generate_qr']);
 
